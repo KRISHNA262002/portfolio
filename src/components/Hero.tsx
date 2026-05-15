@@ -105,7 +105,7 @@ export default function Hero() {
           transition={{ duration: 1.5, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
         >
           <img 
-            src="/Firefly.png" 
+            src={`${import.meta.env.BASE_URL}Firefly.png`} 
             alt="Krishna Khurad"
             className="w-full h-full object-contain brightness-105 contrast-125 mask-image-linear"
           />
@@ -115,7 +115,7 @@ export default function Hero() {
       {/* 4. Bottom Layer - Ticker/Marquee */}
       <div className="absolute bottom-0 left-0 w-full z-20 pointer-events-none overflow-hidden select-none translate-y-[80%]">
         <img 
-          src="/mid1-2.png" 
+          src={`${import.meta.env.BASE_URL}mid1-2.png`} 
           alt="Splitter" 
           className="w-full h-auto scale-[1.1] origin-center"
         />

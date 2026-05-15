@@ -17,7 +17,7 @@ const projects: Project[] = [
     title: "Perfect Park",
     category: "UI/UX • App Design",
     details: "As cities expand, finding a parking spot often becomes a daily hassle. This mobile app case study explores intuitive solutions to transform that quiet struggle into a smooth, seamless experience from start to finish.",
-    image: "/p1.jpg",
+    image: `${import.meta.env.BASE_URL}p1.jpg`,
     link: "https://www.behance.net/gallery/223491979/Perfect-Park-(UIUX-case-study-)"
   },
   {
@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "Medibuddy Homescreen Redesign",
     category: "UI/UX • App Redesign • Responsive Design",
     details: "A comprehensive redesign of Medibuddy’s In-clinic Doctor Consultation landing screen. This case study focuses on optimizing the journey for new corporate users on Android, adapting the interface for returning users, and scaling the experience seamlessly to desktop.",
-    image: "/p2.png",
+    image: `${import.meta.env.BASE_URL}p2.png`,
     link: "https://www.behance.net/gallery/224807673/Redesigning-Medibuddys-Homepage"
   },
   {
@@ -33,7 +33,7 @@ const projects: Project[] = [
     title: "FinSmart",
     category: "UI/UX • FinTech",
     details: "Empowering users to take control of their finances, this app simplifies expense tracking and budgeting to promote financial literacy. The platform offers personalized insights and real-time monitoring within a secure, intuitive interface to help users achieve your financial goals.",
-    image: "/p3.png",
+    image: `${import.meta.env.BASE_URL}p3.png`,
     link: "https://www.behance.net/gallery/211237039/Finsmart-Case-Study"
   },
   {
@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: "Re-Root Regenerative Toothbrush",
     category: "Sustainable Design • Product Design",
     details: "Emerging from an intensive workshop on regenerative principles, the Reroot-Brush emphasizes ecological responsibility, material awareness, and circular thinking. This project explores sustainable materials to reconnect everyday design with natural systems.",
-    image: "/p4.jpg",
+    image: `${import.meta.env.BASE_URL}p4.jpg`,
     link: "https://www.behance.net/gallery/248228377/Design-for-a-Living-Biosphere"
   }
 ];
@@ -171,7 +171,7 @@ export default function Projects() {
             className="group/btn relative w-72 md:w-96 h-14 md:h-16 bg-neon-lime flex items-center justify-center gap-4 overflow-hidden rounded-xl border border-white/20 transition-all hover:scale-[0.98] active:scale-95 shadow-[0_0_30px_rgba(191,255,0,0.15)]"
           >
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300" />
-            <img src="/Software/Behance.png" alt="Behance" className="w-5 h-5 relative z-10 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+            <img src={`${import.meta.env.BASE_URL}Software/Behance.png`} alt="Behance" className="w-5 h-5 relative z-10 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
             <span className="relative z-10 font-display text-xs md:text-sm font-black uppercase tracking-[0.2em] text-charcoal">
               Explore more work
             </span>

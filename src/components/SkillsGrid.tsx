@@ -27,17 +27,17 @@ const skillBlocks = [
 ];
 
 const softwareIcons = [
-  { name: 'Adobe Illustrator', src: '/Software/Adobe Illustrator.png' },
-  { name: 'Adobe Photoshop', src: '/Software/Adobe Photshop.png' },
-  { name: 'Adobe XD', src: '/Software/Adobe XD.png' },
-  { name: 'Adobe', src: '/Software/Adobe.png' },
-  { name: 'Figma', src: '/Software/Figma.png' },
-  { name: 'Framer', src: '/Software/Framer.png' },
-  { name: 'GitHub', src: '/Software/GitHub.png' },
-  { name: 'Miro', src: '/Software/Miro.png' },
-  { name: 'Notion', src: '/Software/Notion.png' },
-  { name: 'Orange', src: '/Software/Orange.png' },
-  { name: 'Power BI', src: '/Software/Power Bi.png' },
+  { name: 'Adobe Illustrator', src: `${import.meta.env.BASE_URL}Software/Adobe Illustrator.png` },
+  { name: 'Adobe Photoshop', src: `${import.meta.env.BASE_URL}Software/Adobe Photshop.png` },
+  { name: 'Adobe XD', src: `${import.meta.env.BASE_URL}Software/Adobe XD.png` },
+  { name: 'Adobe', src: `${import.meta.env.BASE_URL}Software/Adobe.png` },
+  { name: 'Figma', src: `${import.meta.env.BASE_URL}Software/Figma.png` },
+  { name: 'Framer', src: `${import.meta.env.BASE_URL}Software/Framer.png` },
+  { name: 'GitHub', src: `${import.meta.env.BASE_URL}Software/GitHub.png` },
+  { name: 'Miro', src: `${import.meta.env.BASE_URL}Software/Miro.png` },
+  { name: 'Notion', src: `${import.meta.env.BASE_URL}Software/Notion.png` },
+  { name: 'Orange', src: `${import.meta.env.BASE_URL}Software/Orange.png` },
+  { name: 'Power BI', src: `${import.meta.env.BASE_URL}Software/Power Bi.png` },
 ];
 
 
@@ -55,7 +55,7 @@ export default function SkillsGrid() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/bgs3.jpg"
+          src={`${import.meta.env.BASE_URL}bgs3.jpg`}
           alt="Technical Background"
           className="w-full h-full object-cover opacity-80"
         />

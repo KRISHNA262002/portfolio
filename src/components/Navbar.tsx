@@ -44,7 +44,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.95 }}
           >
             <img
-              src="/Subtract.svg"
+              src={`${import.meta.env.BASE_URL}Subtract.svg`}
               alt="Logo"
               className="h-6 md:h-9 w-auto"
             />

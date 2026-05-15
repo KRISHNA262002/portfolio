@@ -37,7 +37,7 @@ export default function App() {
             
             <div className="w-full h-32 md:h-64 relative z-30 -mb-16 md:-mb-32 pointer-events-none">
               <img 
-                src="/mid1-2.png" 
+                src={`${import.meta.env.BASE_URL}mid1-2.png`} 
                 alt="Technical Schematic Divider" 
                 className="w-full h-full object-cover mix-blend-screen opacity-60"
               />
@@ -47,7 +47,7 @@ export default function App() {
             
             <div className="w-full h-32 md:h-64 relative z-30 -mt-16 md:-mt-32 -mb-16 md:-mb-32 rotate-180 pointer-events-none">
               <img 
-                src="/mid1-2.png" 
+                src={`${import.meta.env.BASE_URL}mid1-2.png`} 
                 alt="Technical Schematic Divider" 
                 className="w-full h-full object-cover mix-blend-screen opacity-60"
               />
@@ -57,7 +57,7 @@ export default function App() {
             
             <div className="w-full h-32 md:h-64 relative z-30 -mb-16 md:-mb-32 pointer-events-none">
               <img 
-                src="/mid1-2.png" 
+                src={`${import.meta.env.BASE_URL}mid1-2.png`} 
                 alt="Technical Schematic Divider" 
                 className="w-full h-full object-cover mix-blend-screen opacity-60"
               />
@@ -67,14 +67,17 @@ export default function App() {
             
             <div className="w-full h-32 md:h-64 relative z-40 -mt-16 md:-mt-32 -mb-16 md:-mb-32 rotate-180 pointer-events-none">
               <img 
-                src="/mid1-2.png" 
+                src={`${import.meta.env.BASE_URL}mid1-2.png`} 
                 alt="Technical Schematic Divider" 
                 className="w-full h-full object-cover mix-blend-screen opacity-90"
               />
             </div>
 
             <div className="relative w-full bg-[#050505] z-30">
-              <div className="absolute inset-0 bg-[url('/lbg.jpg')] bg-cover bg-center opacity-30 pointer-events-none" />
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-30 pointer-events-none" 
+                style={{ backgroundImage: `url(${import.meta.env.BASE_URL}lbg.jpg)` }}
+              />
               <div className="relative z-10">
                 <Contact />
                 <Footer />

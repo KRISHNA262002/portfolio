@@ -7,7 +7,7 @@ export default function About() {
       {/* Background Image Layer */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/abg.jpg" 
+          src={`${import.meta.env.BASE_URL}abg.jpg`} 
           alt="Background Texture" 
           className="w-full h-full object-cover opacity-90"
         />
@@ -109,7 +109,7 @@ export default function About() {
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             >
               <img 
-                src="/myy.png" 
+                src={`${import.meta.env.BASE_URL}myy.png`} 
                 alt="Krishna Khurad" 
                 className="w-full h-full object-contain"
               />
