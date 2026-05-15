@@ -72,12 +72,12 @@ export default function About() {
                 <h4 className="text-xs uppercase tracking-[0.4em] text-neon-lime font-black">Experience</h4>
                 <div className="space-y-4">
                   <div>
-                    <p className="font-display font-bold text-lg leading-tight uppercase italic">Aeronovate Solutions</p>
-                    <p className="text-xs text-white/40 uppercase tracking-widest mt-1">Product Designer • 2025</p>
-                  </div>
-                  <div>
                     <p className="font-display font-bold text-lg leading-tight uppercase italic">DevKalp Technology</p>
                     <p className="text-xs text-white/40 uppercase tracking-widest mt-1">UX Designer • 2023</p>
+                  </div>
+                  <div>
+                    <p className="font-display font-bold text-lg leading-tight uppercase italic">Aeronovate Solutions</p>
+                    <p className="text-xs text-white/40 uppercase tracking-widest mt-1">Product Designer • 2025</p>
                   </div>
                 </div>
               </div>
