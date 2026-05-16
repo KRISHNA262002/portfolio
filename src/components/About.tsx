@@ -87,11 +87,11 @@ export default function About() {
                 <div className="space-y-4">
                   <div>
                     <p className="font-display font-bold text-lg leading-tight uppercase italic">M.Des UX Design</p>
-                    <p className="text-xs text-white/40 uppercase tracking-widest mt-1">NIFT Bangalore • 2022-2024</p>
+                    <p className="text-xs text-white/40 uppercase tracking-widest mt-1">NIFT Bangalore • 2025-2027</p>
                   </div>
                   <div>
                     <p className="font-display font-bold text-lg leading-tight uppercase italic">B.E. Computer Eng.</p>
-                    <p className="text-xs text-white/40 uppercase tracking-widest mt-1">SPPU Pune • 2017-2021</p>
+                    <p className="text-xs text-white/40 uppercase tracking-widest mt-1">SPPU Pune • 2020-2024</p>
                   </div>
                 </div>
               </div>
